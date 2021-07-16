@@ -1,0 +1,12 @@
+<div class="profile-details-container">
+    <div class="profile-details-wrap container">
+        <div class="profile-details-img">
+            <img class="profile-img rounded-circle" [src]="userImg ? userImg : 'assets/images/iconfinder_8_3898372.png'">
+        </div>
+        <div class="profile-details-text">
+            <h1>{{profile.first_name}} {{profile.last_name}}</h1>
+            <p class="title">{{profile.job_name}}</p>
+            <p class="description">Description: {{profile.description}}</p>
+        </div>
+    </div>
+</div>
